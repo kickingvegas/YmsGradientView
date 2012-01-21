@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9DA529B14CB7CFE007C94E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DA529A14CB7CFE007C94E6 /* UIKit.framework */; };
+		D9DA529D14CB7CFE007C94E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DA529C14CB7CFE007C94E6 /* Foundation.framework */; };
+		D9DA529F14CB7CFE007C94E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DA529E14CB7CFE007C94E6 /* CoreGraphics.framework */; };
+		D9DA52A514CB7CFE007C94E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9DA52A314CB7CFE007C94E6 /* InfoPlist.strings */; };
+		D9DA52A714CB7CFE007C94E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA52A614CB7CFE007C94E6 /* main.m */; };
+		D9DA52AB14CB7CFE007C94E6 /* YmsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA52AA14CB7CFE007C94E6 /* YmsAppDelegate.m */; };
+		D9DA52AE14CB7CFE007C94E6 /* YmsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA52AD14CB7CFE007C94E6 /* YmsViewController.m */; };
+		D9DA52B114CB7CFE007C94E6 /* YmsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9DA52AF14CB7CFE007C94E6 /* YmsViewController.xib */; };
+		D9DA52B914CB7CFE007C94E6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DA52B814CB7CFE007C94E6 /* SenTestingKit.framework */; };
+		D9DA52BA14CB7CFE007C94E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DA529A14CB7CFE007C94E6 /* UIKit.framework */; };
+		D9DA52BB14CB7CFE007C94E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DA529C14CB7CFE007C94E6 /* Foundation.framework */; };
+		D9DA52C314CB7CFE007C94E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9DA52C114CB7CFE007C94E6 /* InfoPlist.strings */; };
+		D9DA52C614CB7CFE007C94E6 /* YmsGradientViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA52C514CB7CFE007C94E6 /* YmsGradientViewDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9DA52BC14CB7CFE007C94E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9DA528D14CB7CFE007C94E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9DA529514CB7CFE007C94E6;
+			remoteInfo = YmsGradientViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9DA529614CB7CFE007C94E6 /* YmsGradientViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YmsGradientViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9DA529A14CB7CFE007C94E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D9DA529C14CB7CFE007C94E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D9DA529E14CB7CFE007C94E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D9DA52A214CB7CFE007C94E6 /* YmsGradientViewDemo-Info.plist */ = {isa = PBXFileReference; path = "YmsGradientViewDemo-Info.plist"; sourceTree = "<group>"; };
+		D9DA52A414CB7CFE007C94E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9DA52A614CB7CFE007C94E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9DA52A814CB7CFE007C94E6 /* YmsGradientViewDemo-Prefix.pch */ = {isa = PBXFileReference; path = "YmsGradientViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		D9DA52A914CB7CFE007C94E6 /* YmsAppDelegate.h */ = {isa = PBXFileReference; path = YmsAppDelegate.h; sourceTree = "<group>"; };
+		D9DA52AA14CB7CFE007C94E6 /* YmsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YmsAppDelegate.m; sourceTree = "<group>"; };
+		D9DA52AC14CB7CFE007C94E6 /* YmsViewController.h */ = {isa = PBXFileReference; path = YmsViewController.h; sourceTree = "<group>"; };
+		D9DA52AD14CB7CFE007C94E6 /* YmsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YmsViewController.m; sourceTree = "<group>"; };
+		D9DA52B014CB7CFE007C94E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YmsViewController.xib; sourceTree = "<group>"; };
+		D9DA52B714CB7CFE007C94E6 /* YmsGradientViewDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YmsGradientViewDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9DA52B814CB7CFE007C94E6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D9DA52C014CB7CFE007C94E6 /* YmsGradientViewDemoTests-Info.plist */ = {isa = PBXFileReference; path = "YmsGradientViewDemoTests-Info.plist"; sourceTree = "<group>"; };
+		D9DA52C214CB7CFE007C94E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9DA52C414CB7CFE007C94E6 /* YmsGradientViewDemoTests.h */ = {isa = PBXFileReference; path = YmsGradientViewDemoTests.h; sourceTree = "<group>"; };
+		D9DA52C514CB7CFE007C94E6 /* YmsGradientViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YmsGradientViewDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9DA529314CB7CFE007C94E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DA529B14CB7CFE007C94E6 /* UIKit.framework in Frameworks */,
+				D9DA529D14CB7CFE007C94E6 /* Foundation.framework in Frameworks */,
+				D9DA529F14CB7CFE007C94E6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DA52B314CB7CFE007C94E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DA52B914CB7CFE007C94E6 /* SenTestingKit.framework in Frameworks */,
+				D9DA52BA14CB7CFE007C94E6 /* UIKit.framework in Frameworks */,
+				D9DA52BB14CB7CFE007C94E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9DA528B14CB7CFE007C94E6 = {
+			isa = PBXGroup;
+			children = (
+				D9DA52A014CB7CFE007C94E6 /* YmsGradientViewDemo */,
+				D9DA52BE14CB7CFE007C94E6 /* YmsGradientViewDemoTests */,
+				D9DA529914CB7CFE007C94E6 /* Frameworks */,
+				D9DA529714CB7CFE007C94E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9DA529714CB7CFE007C94E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9DA529614CB7CFE007C94E6 /* YmsGradientViewDemo.app */,
+				D9DA52B714CB7CFE007C94E6 /* YmsGradientViewDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9DA529914CB7CFE007C94E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9DA529A14CB7CFE007C94E6 /* UIKit.framework */,
+				D9DA529C14CB7CFE007C94E6 /* Foundation.framework */,
+				D9DA529E14CB7CFE007C94E6 /* CoreGraphics.framework */,
+				D9DA52B814CB7CFE007C94E6 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9DA52A014CB7CFE007C94E6 /* YmsGradientViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D9DA52A914CB7CFE007C94E6 /* YmsAppDelegate.h */,
+				D9DA52AA14CB7CFE007C94E6 /* YmsAppDelegate.m */,
+				D9DA52AC14CB7CFE007C94E6 /* YmsViewController.h */,
+				D9DA52AD14CB7CFE007C94E6 /* YmsViewController.m */,
+				D9DA52AF14CB7CFE007C94E6 /* YmsViewController.xib */,
+				D9DA52A114CB7CFE007C94E6 /* Supporting Files */,
+			);
+			path = YmsGradientViewDemo;
+			sourceTree = "<group>";
+		};
+		D9DA52A114CB7CFE007C94E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9DA52A214CB7CFE007C94E6 /* YmsGradientViewDemo-Info.plist */,
+				D9DA52A314CB7CFE007C94E6 /* InfoPlist.strings */,
+				D9DA52A614CB7CFE007C94E6 /* main.m */,
+				D9DA52A814CB7CFE007C94E6 /* YmsGradientViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9DA52BE14CB7CFE007C94E6 /* YmsGradientViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9DA52C414CB7CFE007C94E6 /* YmsGradientViewDemoTests.h */,
+				D9DA52C514CB7CFE007C94E6 /* YmsGradientViewDemoTests.m */,
+				D9DA52BF14CB7CFE007C94E6 /* Supporting Files */,
+			);
+			path = YmsGradientViewDemoTests;
+			sourceTree = "<group>";
+		};
+		D9DA52BF14CB7CFE007C94E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9DA52C014CB7CFE007C94E6 /* YmsGradientViewDemoTests-Info.plist */,
+				D9DA52C114CB7CFE007C94E6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9DA529514CB7CFE007C94E6 /* YmsGradientViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9DA52C914CB7CFE007C94E6 /* Build configuration list for PBXNativeTarget "YmsGradientViewDemo" */;
+			buildPhases = (
+				D9DA529214CB7CFE007C94E6 /* Sources */,
+				D9DA529314CB7CFE007C94E6 /* Frameworks */,
+				D9DA529414CB7CFE007C94E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YmsGradientViewDemo;
+			productName = YmsGradientViewDemo;
+			productReference = D9DA529614CB7CFE007C94E6 /* YmsGradientViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9DA52B614CB7CFE007C94E6 /* YmsGradientViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9DA52CC14CB7CFE007C94E6 /* Build configuration list for PBXNativeTarget "YmsGradientViewDemoTests" */;
+			buildPhases = (
+				D9DA52B214CB7CFE007C94E6 /* Sources */,
+				D9DA52B314CB7CFE007C94E6 /* Frameworks */,
+				D9DA52B414CB7CFE007C94E6 /* Resources */,
+				D9DA52B514CB7CFE007C94E6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9DA52BD14CB7CFE007C94E6 /* PBXTargetDependency */,
+			);
+			name = YmsGradientViewDemoTests;
+			productName = YmsGradientViewDemoTests;
+			productReference = D9DA52B714CB7CFE007C94E6 /* YmsGradientViewDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9DA528D14CB7CFE007C94E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Yummy Melon Software LLC";
+			};
+			buildConfigurationList = D9DA529014CB7CFE007C94E6 /* Build configuration list for PBXProject "YmsGradientViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D9DA528B14CB7CFE007C94E6;
+			productRefGroup = D9DA529714CB7CFE007C94E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9DA529514CB7CFE007C94E6 /* YmsGradientViewDemo */,
+				D9DA52B614CB7CFE007C94E6 /* YmsGradientViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9DA529414CB7CFE007C94E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DA52A514CB7CFE007C94E6 /* InfoPlist.strings in Resources */,
+				D9DA52B114CB7CFE007C94E6 /* YmsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DA52B414CB7CFE007C94E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DA52C314CB7CFE007C94E6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D9DA52B514CB7CFE007C94E6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9DA529214CB7CFE007C94E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DA52A714CB7CFE007C94E6 /* main.m in Sources */,
+				D9DA52AB14CB7CFE007C94E6 /* YmsAppDelegate.m in Sources */,
+				D9DA52AE14CB7CFE007C94E6 /* YmsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DA52B214CB7CFE007C94E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DA52C614CB7CFE007C94E6 /* YmsGradientViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9DA52BD14CB7CFE007C94E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9DA529514CB7CFE007C94E6 /* YmsGradientViewDemo */;
+			targetProxy = D9DA52BC14CB7CFE007C94E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9DA52A314CB7CFE007C94E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9DA52A414CB7CFE007C94E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D9DA52AF14CB7CFE007C94E6 /* YmsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9DA52B014CB7CFE007C94E6 /* en */,
+			);
+			name = YmsViewController.xib;
+			sourceTree = "<group>";
+		};
+		D9DA52C114CB7CFE007C94E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9DA52C214CB7CFE007C94E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9DA52C714CB7CFE007C94E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D9DA52C814CB7CFE007C94E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9DA52CA14CB7CFE007C94E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YmsGradientViewDemo/YmsGradientViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "YmsGradientViewDemo/YmsGradientViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D9DA52CB14CB7CFE007C94E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YmsGradientViewDemo/YmsGradientViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "YmsGradientViewDemo/YmsGradientViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D9DA52CD14CB7CFE007C94E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YmsGradientViewDemo.app/YmsGradientViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YmsGradientViewDemo/YmsGradientViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "YmsGradientViewDemoTests/YmsGradientViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D9DA52CE14CB7CFE007C94E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YmsGradientViewDemo.app/YmsGradientViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YmsGradientViewDemo/YmsGradientViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "YmsGradientViewDemoTests/YmsGradientViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9DA529014CB7CFE007C94E6 /* Build configuration list for PBXProject "YmsGradientViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9DA52C714CB7CFE007C94E6 /* Debug */,
+				D9DA52C814CB7CFE007C94E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9DA52C914CB7CFE007C94E6 /* Build configuration list for PBXNativeTarget "YmsGradientViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9DA52CA14CB7CFE007C94E6 /* Debug */,
+				D9DA52CB14CB7CFE007C94E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9DA52CC14CB7CFE007C94E6 /* Build configuration list for PBXNativeTarget "YmsGradientViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9DA52CD14CB7CFE007C94E6 /* Debug */,
+				D9DA52CE14CB7CFE007C94E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9DA528D14CB7CFE007C94E6 /* Project object */;
+}
