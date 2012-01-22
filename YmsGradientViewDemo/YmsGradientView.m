@@ -27,20 +27,14 @@
 
 
 - (id)initWithFrame:(CGRect)frame withResourceName:(NSString *)name {
-    self.resourceName = name;
-    self = [self initWithFrame:frame];
-    return self;
-}
 
-- (id)initWithFrame:(CGRect)frame
-{
-    self = [super initWithFrame:frame];
+    self = [self initWithFrame:frame];
+    
     if (self) {
-        //[self initConfig];
+        self.resourceName = name;
     }
     return self;
 }
-
 
 
 
