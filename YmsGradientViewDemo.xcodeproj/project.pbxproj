@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D931CB1614CBF68D0031B5E5 /* Example1.plist in Resources */ = {isa = PBXBuildFile; fileRef = D931CB1514CBF68D0031B5E5 /* Example1.plist */; };
 		D9DA529B14CB7CFE007C94E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DA529A14CB7CFE007C94E6 /* UIKit.framework */; };
 		D9DA529D14CB7CFE007C94E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DA529C14CB7CFE007C94E6 /* Foundation.framework */; };
 		D9DA529F14CB7CFE007C94E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DA529E14CB7CFE007C94E6 /* CoreGraphics.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D931CB1514CBF68D0031B5E5 /* Example1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Example1.plist; sourceTree = "<group>"; };
 		D9DA529614CB7CFE007C94E6 /* YmsGradientViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YmsGradientViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DA529A14CB7CFE007C94E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D9DA529C14CB7CFE007C94E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -124,6 +126,7 @@
 				D9DA52CF14CB7D40007C94E6 /* YmsGradientView.h */,
 				D9DA52D014CB7D40007C94E6 /* YmsGradientView.m */,
 				D9DA52D114CB7D40007C94E6 /* YmsGradientView.plist */,
+				D931CB1514CBF68D0031B5E5 /* Example1.plist */,
 				D9DA52A114CB7CFE007C94E6 /* Supporting Files */,
 			);
 			path = YmsGradientViewDemo;
@@ -233,6 +236,7 @@
 				D9DA52A514CB7CFE007C94E6 /* InfoPlist.strings in Resources */,
 				D9DA52B114CB7CFE007C94E6 /* YmsViewController.xib in Resources */,
 				D9DA52D314CB7D40007C94E6 /* YmsGradientView.plist in Resources */,
+				D931CB1614CBF68D0031B5E5 /* Example1.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +448,7 @@
 				D9DA52CB14CB7CFE007C94E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9DA52CC14CB7CFE007C94E6 /* Build configuration list for PBXNativeTarget "YmsGradientViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +457,7 @@
 				D9DA52CE14CB7CFE007C94E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
