@@ -23,11 +23,13 @@
 @interface YmsGradientView : UIView
 
 @property (nonatomic, strong) NSString *resourceName; 
-@property (nonatomic, strong) NSDictionary *config;
 
 
 - (id)initWithFrame:(CGRect)frame withResourceName:(NSString *)name;
 
-- (void)initConfig;
+- (void)addGraphics:(CGContextRef)context;
+
+- (BOOL)validateConfiguration:(NSDictionary *)gradientConfig;
+
 
 @end
