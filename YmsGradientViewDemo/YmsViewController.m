@@ -7,6 +7,7 @@
 //
 
 #import "YmsViewController.h"
+#import "YmsGradientView.h"
 
 @implementation YmsViewController
 
@@ -21,7 +22,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    // Load YmsGraidentView using Example1.plist configuration.
+    YmsGradientView *gradientView = [[YmsGradientView alloc] initWithFrame:CGRectMake(80, 90, 100, 100) withResourceName:@"Example1"];
+    
+    [self.view addSubview:gradientView];
+    
 }
 
 - (void)viewDidUnload
