@@ -50,7 +50,7 @@
         self.resourceName = NSStringFromClass([self class]);
     }
     
-    NSLog(@"Rendering gradient using %@.plist", self.resourceName);
+    //NSLog(@"Rendering gradient using %@.plist", self.resourceName);
     
     
     NSString *path = [[NSBundle mainBundle] pathForResource:self.resourceName ofType:@"plist"];
