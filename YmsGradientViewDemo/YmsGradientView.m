@@ -152,7 +152,7 @@
     
     if ((colorArray == nil) || (colorArray.count == 0)) { 
         NSLog(@"ERROR: colors array is not defined in %@.plist", self.resourceName);
-        result = result | NO;
+        result = result & NO;
     }
     else {
         if (locations != nil) {
@@ -163,30 +163,30 @@
             else if ((colorArray.count > locations.count) && (locations.count > 0)) {
                 NSLog(@"ERROR:The size of the array colors and the array locations do not match in %@.plist. "
                       "They should either be equal or there should be no elements in the locations array.", self.resourceName);
-                result = result | NO;
+                result = result & NO;
             }
         }
     }
     
     if (startPoint == nil) {
         NSLog(@"ERROR: startPoint is not defined in %@.plist", self.resourceName);
-        result = result | NO;
+        result = result & NO;
     }
     else {
         if (startPoint.count != 2) {
             NSLog(@"ERROR: startPoint must have 2 elements (default 0.5, 0.0) in %@.plist", self.resourceName);
-            result = result | NO;
+            result = result & NO;
         }
     }
     
     if (endPoint == nil) {
         NSLog(@"ERROR: endPoint is not defined in %@.plist", self.resourceName);
-        result = result | NO;
+        result = result & NO;
     } 
     else {
         if (endPoint.count != 2) {
             NSLog(@"ERROR: endPoint must have 2 elements (default 0.5, 1.0) in %@.plist", self.resourceName);
-            result = result | NO;
+            result = result & NO;
         }
     }
 
