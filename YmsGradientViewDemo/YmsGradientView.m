@@ -31,7 +31,9 @@
     self = [self initWithFrame:frame];
     
     if (self) {
-        self.resourceName = name;
+        resourceName = name;
+        self.opaque = NO;
+        self.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
     }
     return self;
 }
